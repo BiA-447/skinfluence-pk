@@ -9,7 +9,7 @@ import re
 import faiss
 from rapidfuzz import fuzz
 
-GROQ_MODEL = "llama-3.3-70b-versatile"      # fallback: "llama-3.1-8b-instant"
+GROQ_MODEL = "openai/gpt-oss-120b"      # fallback: "llama-3.1-8b-instant"
 
 # product category (from CSV) -> routine "bucket"
 BUCKETS = {
